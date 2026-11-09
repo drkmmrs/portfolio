@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Моё портфолио | Developer</title>
+
+<style>
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+
+  background: #0b1020;
+
+  color: #f1f5f9;
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+}
+
+.container { max-width: 1050px; margin: auto; padding: 30px 22px; }
+
+header {
+
+  display: flex; justify-content: space-between;
+
+  align-items: center; padding: 20px 0;
+
+  border-bottom: 1px solid #273149;
+
+}
+
+.logo { font-size: 24px; font-weight: bold; color: #60a5fa; }
+
+nav a { color: #cbd5e1; text-decoration: none; margin-left: 20px; }
+
+.hero { padding: 100px 0 75px; }
+
+.tag { color: #60a5fa; letter-spacing: 2px; font-size: 13px; }
+
+h1 { font-size: clamp(38px, 7vw, 65px); line-height: 1.1; margin: 18px 0; }
+
+h1 span { color: #60a5fa; }
+
+.hero p { color: #aab6ca; max-width: 620px; font-size: 18px; }
+
+.button {
+
+  display: inline-block; margin-top: 28px;
+
+  padding: 13px 23px; background: #2563eb;
+
+  color: white; border-radius: 9px; text-decoration: none;
+
+}
+
+section { padding: 45px 0; }
+
+h2 { font-size: 30px; margin-bottom: 22px; }
+
+.card {
+
+  background: #151e32; border: 1px solid #283650;
+
+  border-radius: 16px; padding: 28px; margin-bottom: 20px;
+
+}
+
+.card h3 { font-size: 23px; margin-bottom: 12px; }
+
+.card p { color: #aab6ca; }
+
+.grid {
+
+  display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+
+  gap: 16px;
+
+}
+
+.skill {
+
+  background: #151e32; padding: 20px;
+
+  border-radius: 12px; border: 1px solid #283650;
+
+}
+
+footer {
+
+  border-top: 1px solid #273149; padding: 30px 0;
+
+  color: #8290a8; text-align: center; margin-top: 40px;
+
+}
+
+a { color: #60a5fa; }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+  <div class="logo">DRKMMRS.DEV</div>
+
+  <nav>
+
+    <a href="#about">Обо мне</a>
+
+    <a href="#projects">Проекты</a>
+
+    <a href="#contacts">Контакты</a>
+
+  </nav>
+
+</header>
+
+<div class="hero">
+
+  <div class="tag">DEVELOPER PORTFOLIO</div>
+
+  <h1>Привет! Я
+<span>начинающий разработчик</span></h1>
+
+  <p>Создаю веб-приложения, изучаю программирование и превращаю идеи в работающие проекты.</p>
+
+  <a class="button" href="#projects">Посмотреть проекты ↓</a>
+
+</div>
+
+<section id="about">
+
+  <h2>Обо мне</h2>
+
+  <div class="card">
+
+    <p>Я развиваюсь в сфере веб-разработки. Мне интересно создавать современные сайты и приложения, работать с интерфейсами, базами данных и серверной частью.</p>
+
+  </div>
+
+</section>
+
+<section id="projects">
+
+  <h2>Мои проекты</h2>
+
+  <div class="card">
+
+    <div class="tag">PYTHON · FLASK · SQLITE</div>
+
+    <h3>PySocial — социальная сеть</h3>
+
+    <p>Мой проект социальной сети с регистрацией пользователей, публикациями, лайками, комментариями и личными сообщениями.</p>
+
+    
+
+    <p><b>Возможности:</b></p>
+
+    <p>• Регистрация и авторизация</p>
+
+    <p>• Лента публикаций</p>
+
+    <p>• Лайки и комментарии</p>
+
+    <p>• Личные сообщения</p>
+
+    <p>• Список диалогов в стиле VK</p>
+
+    
+
+    <p><b>Технологии:</b> Python, Flask, SQLite, HTML, CSS.</p>
+
+    
+
+    <span class="tag">В РАЗРАБОТКЕ</span>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2>Технологии</h2>
+
+  <div class="grid">
+
+    <div class="skill">🐍 Python</div>
+
+    <div class="skill">⚡ Flask</div>
+
+    <div class="skill">🗄️ SQLite</div>
+
+    <div class="skill">🌐 HTML</div>
+
+    <div class="skill">🎨 CSS</div>
+
+    <div class="skill">💻 Git / GitHub</div>
+
+  </div>
+
+</section>
+
+<section id="contacts">
+
+  <h2>Контакты</h2>
+
+  <div class="card">
+
+    <p>GitHub: <a href="https://github.com/drkmrrs">github.com/drkmrrs</a></p>
+
+    <p>По вопросам сотрудничества можно связаться со мной через GitHub.</p>
+
+  </div>
+
+</section>
+
+<footer>
+
+  © 2026 DRKMMRS.DEV · Developer Portfolio
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
